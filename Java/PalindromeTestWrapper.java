@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class PalindromeTestWrapper {
-    final String isMsg = " IS a palindrome";
+    final String isMsg = " is a palindrome";
     final String isNotMsg = " is NOT a palindrome";
 
     public PalindromeTestWrapper() {
