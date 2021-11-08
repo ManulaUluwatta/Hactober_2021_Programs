@@ -6,7 +6,7 @@ public class PalindromeTestWrapper {
 
     public PalindromeTestWrapper() {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter word :");
+        System.out.print("Enter Word :");
         String word = input.nextLine();
         boolean result = isPalindrome(word);
         if (result == true) {
