@@ -22,6 +22,7 @@ public class PalindromeTestWrapper {
 
     public boolean isPalindrome(String s) {
         Stack stack;
+        int temp;
         char[] charArray = s.toCharArray();
         int length = charArray.length;
         stack = new Stack(s);
